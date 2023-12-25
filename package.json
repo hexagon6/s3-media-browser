@@ -1,0 +1,22 @@
+{
+  "name": "@hexagon6/s3-media-browser",
+  "version": "1.0.0",
+  "description": "nodejs amazon s3 browser",
+  "main": "index.mjs",
+  "scripts": {
+    "dev": "node -r dotenv-safe/config index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv-safe": "^8.2.0",
+    "inquirer": "^9.2.12",
+    "inquirer-search-list": "^1.2.6",
+    "ramda": "^0.29.1",
+    "xml2js": "^0.6.2"
+  },
+  "bin": {
+    "s3-media-browser": "./index.mjs"
+  }
+}
